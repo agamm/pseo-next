@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 }
 
 // Getting a post
-export async function getPost(slug: string) {
+async function getPost(slug: string) {
   const post = allPosts.find((post) => post.slug === slug);
   return post;
 }

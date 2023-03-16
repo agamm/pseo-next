@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@types/node": "18.15.3",
@@ -18,6 +19,7 @@
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "next-contentlayer": "^0.3.0",
+    "next-sitemap": "^4.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
