@@ -11,7 +11,6 @@ Developer experience first:
 - 💡 Absolute Imports using `@` prefix
 - 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
 - 🗺️ Sitemap.xml and robots.txt with next-sitemap
-
 - 💯 Maximize lighthouse score
 
 Nice to have:

@@ -1,0 +1,8 @@
+- Make sure prettier works
+- Make sure components/ works with @
+- Add prisma?
+- add next sitemap (static pages + blog + ISR indexed)
+- add next SEO
+- Check nextdata is not indexable
+- * Playwright test?
+- * Bundle Analyzer?
