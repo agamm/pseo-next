@@ -8,6 +8,6 @@ const nextConfig = {
     appDir: true,
     mdxRs: true,
   },
-}
+};
 
-module.exports = withContentlayer(nextConfig)
+module.exports = withContentlayer(nextConfig);
