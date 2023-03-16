@@ -1,4 +1,4 @@
-import { sitemapSize, siteUrl } from "../../../next-sitemap.config";
+import { sitemapSize, siteUrl } from "../../next-sitemap.config";
 
 export function generateSitemapArray(itemCount: number): string[] {
   let siteMapIndexes = [];

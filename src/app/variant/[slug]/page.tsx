@@ -6,11 +6,18 @@
 
 // Like getStaticPaths
 // export async function generateStaticParams() {
-//   const variantsUrls = DB
+//   const variantsUrls = await DB
 
 //   return postSlugs?.map((slug) => ({
 //     slug,
 //   }));
+// }
+
+// SEO metadata
+// import type { Metadata } from 'next'
+// export async function generateMetadata({ params }): Promise<Metadata> {
+//   const product = await DB;
+//   return { title: product.title }
 // }
 
 const VariantLayout = async ({ params }: { params: { slug: string } }) => {
