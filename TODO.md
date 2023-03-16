@@ -1,10 +1,6 @@
 - Add prisma?
-- add next sitemap (static pages + blog + ISR indexed)
-- add next SEO
-- Check nextdata is not indexable
-- - Playwright test?
+- Check nextdata is not indexable ---???? add a FIXME somewhere? + docs about FIXME.
 - - Bundle Analyzer?
-- Add upstream branch for template usage + docs
 
 ### Long term
 
