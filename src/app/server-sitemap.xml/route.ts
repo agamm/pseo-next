@@ -22,8 +22,6 @@ export async function GET(request: NextRequest) {
   const urls: ISitemapField[] = currentVariants.map((slug) => ({
     loc: `${siteURL}/${variantName}/${slug}`,
     lastmod: new Date().toISOString(),
-    changefreq: "daily",
-    priority: 0.7,
   }));
 
   return getServerSideSitemap(urls);

@@ -4,7 +4,17 @@
 //   return res.json();
 // }
 
+// Like getStaticPaths
+// export async function generateStaticParams() {
+//   const variantsUrls = DB
+
+//   return postSlugs?.map((slug) => ({
+//     slug,
+//   }));
+// }
+
 const VariantLayout = async ({ params }: { params: { slug: string } }) => {
+  // const data = await getData();
   return <p>You are currently viewing: {params.slug} </p>;
 };
 
