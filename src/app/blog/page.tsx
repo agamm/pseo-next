@@ -23,15 +23,16 @@ function PostCard(post: { date: string; url: string; title: string }) {
   );
 }
 
+export const metadata = {
+  title: "Blog posts",
+  description: "The latest blog posts.",
+};
+
 export default async function Home() {
   const posts = await getAllPosts();
 
   return (
     <div className="">
-      <Head>
-        <title>Blog Posts</title>
-      </Head>
-
       <h1 className="mb-8 text-3xl font-bold">All blog posts</h1>
 
       {posts.map((post, idx) => (

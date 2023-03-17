@@ -18,6 +18,11 @@ async function getPost(slug: string) {
   return post;
 }
 
+export const metadata = {
+  title: "Post title",
+  description: "Post description",
+};
+
 const PostLayout = async ({ params }: { params: { slug: string } }) => {
   const { slug } = params;
 
@@ -29,9 +34,6 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
 
   return (
     <>
-      <Head>
-        <title>{post.title}</title>
-      </Head>
       <article className="mx-auto max-w-2xl py-16">
         <div className="mb-6 text-center">
           <Link href="/">Home</Link>
