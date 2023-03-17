@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import { allPosts, Post } from "contentlayer/generated";
