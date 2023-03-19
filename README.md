@@ -43,4 +43,7 @@ npm i
 npm run dev
 ```
 
+2. In vercel change the build:
+   `npm run prod:build`
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
