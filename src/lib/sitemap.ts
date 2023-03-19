@@ -1,3 +1,6 @@
+export const runtime = "experimental-edge";
+// export const revalidate = 86400; // FIXME: remove this in prod
+
 import { sitemapSize, siteUrl } from "../../next-sitemap.config";
 
 export function generateSitemapArray(itemCount: number): string[] {
@@ -6,7 +9,7 @@ export function generateSitemapArray(itemCount: number): string[] {
   let counter = 0;
 
   do {
-    siteMapIndexes.push(`${siteUrl}/server-sitemap.xml?index=${index}`);
+    siteMapIndexes.push(`${siteUrl}/server-sitemaps/${index}.xml`);
     counter += sitemapSize;
     index++;
   } while (counter <= itemCount);

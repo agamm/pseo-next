@@ -6,9 +6,9 @@ import { NextRequest } from "next/server";
 const variantName = "variant";
 
 export async function GET(request: NextRequest) {
-  const sitemapIndex = parseInt(
-    request.nextUrl.searchParams.get("index") ?? "0"
-  );
+  const path = request.nextUrl.pathname;
+  const sitemapIndexRaw = path.split("/")[2].replace(".xml", "");
+  const sitemapIndex = parseInt(sitemapIndexRaw ?? "0");
 
   // FIXME: get this from the DB
   const variantSlugs = Array.from(Array(sitemapMaxItems * 1.5).keys()).map(
