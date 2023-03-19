@@ -5,5 +5,10 @@ services:
   db:
     image: postgres
     restart: always
+    expose:
+      - 5432
+    ports:
+      - "5432:5432"
     environment:
-      POSTGRES_PASSWORD: example
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: test
