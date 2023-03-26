@@ -1,3 +1,4 @@
+import CookieConsent from "react-cookie-consent";
 import "./globals.css";
 
 export const metadata = {
@@ -16,6 +17,9 @@ export default function RootLayout({
         <header>Header</header>
         <main>{children}</main>
         <footer>Footer</footer>
+        <CookieConsent>
+          This website uses cookies to enhance the user experience.
+        </CookieConsent>
       </body>
     </html>
   );
