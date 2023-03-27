@@ -1,6 +1,7 @@
 import { CookieBanner } from "@/components/CookieBanner";
 import "./globals.css";
 
+// FIXME: change this
 export const metadata = {
   title: "pSEO next template",
   description: "A template for programmatic SEO",
