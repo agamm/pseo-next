@@ -6,9 +6,9 @@ services:
     image: postgres
     restart: always
     expose:
-      - 5432
+      - 5433
     ports:
-      - "5432:5432"
+      - "5433:5433"
     environment:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: test
