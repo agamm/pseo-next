@@ -1,4 +1,4 @@
-# Boilerplate for Programmatic SEO campaigns
+# Next 13 Boilerplate for Programmatic SEO Campaigns
 
 A terse template for creating modern [Programmatic SEO](https://unzip.dev/0x003-programmatic-seo/) campaigns.
 Including all of the features you would expect in a modern pSEO campaign.
