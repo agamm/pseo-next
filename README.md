@@ -1,14 +1,16 @@
 # Boilerplate for Programmatic SEO campaigns
 
-A terse template for creating modern Programmatic SEO campaigns.
+A terse template for creating modern [Programmatic SEO](https://unzip.dev/0x003-programmatic-seo/) campaigns.
 From the creator of [unzip.dev](https://unzip.dev?ref=next-pseo).
 
 ### Programmatic SEO Features
 
 - ⚡ Utalizes Next.js for Static Fast Webpage Loading and Deploy on Vercel.
 - Use ISR for regenerating infomration on Vercel during runtime.
-- Have Sitemaps generated automatically even with ISR regeneration.
+- 🗺️ Have Sitemaps and Robots.txt generated automatically even with ISR regeneration via next-sitemap.
 - Site, Blog and Variant page have distinct layouts.
+- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
+- 💯 Maximize lighthouse score
 
 ### Developer experience first:
 
@@ -17,9 +19,6 @@ From the creator of [unzip.dev](https://unzip.dev?ref=next-pseo).
 - ✅ Strict Mode for TypeScript and React 18
 - 💖 Code Formatter with [Prettier](https://prettier.io)
 - 💡 Absolute Imports using `@` prefix
-- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
-- 🗺️ _Dynamic_ Sitemap.xml and robots.txt with next-sitemap
-- 💯 Maximize lighthouse score
 
 Nice to have:
 
