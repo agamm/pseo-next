@@ -6,7 +6,7 @@ From the creator of [unzip.dev](https://unzip.dev?ref=next-pseo).
 
 ### Programmatic SEO Features
 
-- ⚡ Utalizes Next.js for Static Fast Webpage Loading and Deploy on Vercel.
+- ⚡ Utalizes Next 13 for Static Fast Webpage Loading and Deploy on Vercel.
 - 🏗️ Use ISR for regenerating infomration on Vercel during runtime.
 - 🗺️ Have Sitemaps and Robots.txt generated automatically even with ISR regeneration via next-sitemap.
 - 🏯 Site, Blog and Variant page have distinct layouts.
