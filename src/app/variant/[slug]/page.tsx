@@ -1,3 +1,4 @@
+// FIXME: uncomment here to connect to your DB.
 // request has `revalidate: 10`.
 // async function getData() {
 //   const res = await fetch('https://...', { next: { revalidate: 10 } });

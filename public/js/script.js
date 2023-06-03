@@ -1,12 +1,16 @@
-loadScript("https://www.googletagmanager.com/gtag/js?id=G-XEWR3BFFGJ", () => {
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
+loadScript(
+  "https://www.googletagmanager.com/gtag/js?id=YOUR_GOOGLE_ANALYTICS_ID",
+  () => {
+    // FIXME
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag("config", "G-XEWR3BFFGJ");
-});
+    gtag("config", "YOUR_GOOGLE_ANALYTICS_ID"); // FIXME
+  }
+);
 
 function loadScript(src, callback) {
   let s, r, t;
@@ -16,7 +20,6 @@ function loadScript(src, callback) {
   s.src = src;
   s.async = true;
   s.onload = s.onreadystatechange = function () {
-    //console.log( this.readyState ); //uncomment this line to see which ready states are called.
     if (!r && (!this.readyState || this.readyState == "complete")) {
       r = true;
       callback();

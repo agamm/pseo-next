@@ -1,5 +1,4 @@
-export const runtime = "experimental-edge";
-// export const revalidate = 86400; // FIXME: remove this in prod
+// export const revalidate = 86400; // FIXME: uncomment this in prod
 
 import { sitemapSize, siteUrl } from "../../next-sitemap.config";
 
