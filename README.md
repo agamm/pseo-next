@@ -24,8 +24,8 @@ From the creator of [unzip.dev](https://unzip.dev?ref=next-pseo).
 Nice to have:
 
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer) (NOT Connected yet)
-- 📓 Write standard compliant commit messages with Commitizen
-- 🔍 Visual testing with Percy (Optional)
+- 📓 Write standard compliant commit messages with Commitizen (NOT Connected yet)
+- 🔍 Visual testing with Percy (Optional) (NOT Connected yet)
 - 🧪 E2E Testing with Playwright
 
 Built-in feature from Next.js:
