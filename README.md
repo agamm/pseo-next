@@ -1,70 +1,53 @@
-# Boilerplate for Programmatic SEO campaigns
+# Next 13 Boilerplate for Programmatic SEO Campaigns
 
 A terse template for creating modern [Programmatic SEO](https://unzip.dev/0x003-programmatic-seo/) campaigns.
 Including all of the features you would expect in a modern pSEO campaign.
 From the creator of [unzip.dev](https://unzip.dev?ref=next-pseo).
 
+![image](https://github.com/agamm/pseo-next/assets/1269911/03286ccd-d476-49a7-bd46-3108a33f9ed7)
+
+
 ### Programmatic SEO Features
 
-- ⚡ Utalizes Next.js for Static Fast Webpage Loading and Deploy on Vercel.
+- ⚡ Utalizes Next 13 for Static Fast Webpage Loading and Deploy on Vercel.
 - 🏗️ Use ISR for regenerating infomration on Vercel during runtime.
-- 🗺️ Have Sitemaps and Robots.txt generated automatically even with ISR regeneration via next-sitemap.
+- 🗺️ Sitemaps and Robots.txt generated automatically even with ISR regeneration via next-sitemap.
 - 🏯 Site, Blog and Variant page have distinct layouts.
-- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
-- 💯 Maximize lighthouse score
+- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO.
+- 💯 Maximize lighthouse score.
 - 🍪 Built in Cookie Banner.
 - 📊 Built in Google Analytics.
 - 📷 Auto 404 Image place holder component.
 
 ### Developer experience first:
 
-- 📦 Prisma for easy DB interaction.
-- 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
-- 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
-- ✅ Strict Mode for TypeScript and React 18
-- 💖 Code Formatter with [Prettier](https://prettier.io)
-- 💡 Absolute Imports using `@` prefix
+- 📦 Prisma (Postgres-compatible) for easy DB interaction.
+- 🔥 Type checking [TypeScript](https://www.typescriptlang.org).
+- 💎 Integrate with [Tailwind CSS](https://tailwindcss.com).
+- ✅ Strict Mode for TypeScript and React 18.
+- 💖 Code Formatter with [Prettier](https://prettier.io).
+- 💡 Absolute Imports using `@` prefix.
+- 🧪 E2E Testing with Playwright.
 
-Nice to have:
-
-- ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer) (NOT Connected yet)
-- 📓 Write standard compliant commit messages with Commitizen (NOT Connected yet)
-- 🔍 Visual testing with Percy (Optional) (NOT Connected yet)
-- 🧪 E2E Testing with Playwright
-
-Built-in feature from Next.js:
-
-- ☕ Minify HTML & CSS
-- 💨 Live reload
-- ✅ Cache busting
-
-### Requirements
-
-- Node.js 14+ and npm
 
 ## Getting Started
 
-1. Check all of the "FIXME" comments before starting.
-
-2. `cp .env.example .env.local`
-
-3. Run the development server:
-
-```bash
-npm i
-npm run dev
-```
+1. `git clone git@github.com:agamm/pseo-next.git pseo-example`
+2. `npm i`
+3. Start docker (for local postgress DB)
+4. Open `https://localhost:3000/`
+5. Check the `Development section`.
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Development
 
+- .env.example -> mv to -> .env (change parameters if needed)
 - /src/app/(site) - all of your landing pages go here (Home page, about, terms etc...)
 - /posts - Your blog written as Markdown files.
 - /src/app/blog - change your blog layout.
 - /src/variant/[slug] - This is where you do your Programmatic variants.
 
-  - Example: variant=<topic>, slug=<your modifiers>
   - Would be something like: yoursite.com/hotels/spain-summer-2023 (variant="hotels", slug="spain-summer-2023")
   - Remember to uncomment the comments there to actually fetch from your DB.
 
