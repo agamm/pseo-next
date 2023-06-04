@@ -4,6 +4,9 @@ A terse template for creating modern [Programmatic SEO](https://unzip.dev/0x003-
 Including all of the features you would expect in a modern pSEO campaign.
 From the creator of [unzip.dev](https://unzip.dev?ref=next-pseo).
 
+![image](https://github.com/agamm/pseo-next/assets/1269911/03286ccd-d476-49a7-bd46-3108a33f9ed7)
+
+
 ### Programmatic SEO Features
 
 - ⚡ Utalizes Next 13 for Static Fast Webpage Loading and Deploy on Vercel.
