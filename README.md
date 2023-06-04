@@ -48,7 +48,6 @@ From the creator of [unzip.dev](https://unzip.dev?ref=next-pseo).
 - /src/app/blog - change your blog layout.
 - /src/variant/[slug] - This is where you do your Programmatic variants.
 
-  - Example: variant=<topic>, slug=<your modifiers>
   - Would be something like: yoursite.com/hotels/spain-summer-2023 (variant="hotels", slug="spain-summer-2023")
   - Remember to uncomment the comments there to actually fetch from your DB.
 
