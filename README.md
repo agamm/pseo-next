@@ -18,7 +18,7 @@ From the creator of [unzip.dev](https://unzip.dev?ref=next-pseo).
 
 ### Developer experience first:
 
-- 📦 Prisma for easy DB interaction.
+- 📦 Prisma (Postgres-compatible) for easy DB interaction.
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
 - 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
 - ✅ Strict Mode for TypeScript and React 18
@@ -44,21 +44,17 @@ Built-in feature from Next.js:
 
 ## Getting Started
 
-1. Check all of the "FIXME" comments before starting.
-
-2. `cp .env.example .env.local`
-
-3. Run the development server:
-
-```bash
-npm i
-npm run dev
-```
+1. `git clone git@github.com:agamm/pseo-next.git pseo-example`
+2. `npm i`
+3. Start docker (for local postgress DB)
+4. Open `https://localhost:3000/`
+5. Check the `Development section`.
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Development
 
+- .env.example -> mv to -> .env (change parameters if needed)
 - /src/app/(site) - all of your landing pages go here (Home page, about, terms etc...)
 - /posts - Your blog written as Markdown files.
 - /src/app/blog - change your blog layout.
