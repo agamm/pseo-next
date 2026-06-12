@@ -1,4 +1,5 @@
 # Next 13 Boilerplate for Programmatic SEO Campaigns
+[![Sponsor](https://readme-cash--readme-cash.us-central1.hosted.app/i/5pnjbzi5tp.svg)](https://readme-cash--readme-cash.us-central1.hosted.app/c/5pnjbzi5tp)
 
 A terse template for creating modern [Programmatic SEO](https://unzip.dev/0x003-programmatic-seo/) campaigns.
 Including all of the features you would expect in a modern pSEO campaign.
